@@ -13,9 +13,9 @@
 	/*border: 1px solid;*/
 	width: 100%;
 	margin: 0 auto;
-	background-color: lightgrey;
-	box-shadow: 3px 3px 3px;
-	height: 8vh;
+	/*box-shadow: 3px 3px 3px;*/
+	height: 10vh;
+	border-bottom: 2px solid lightgrey;
 }
 
 .navbar-list {
@@ -44,14 +44,17 @@
 #company-icon {
 	background-image: url("images/icon.png");
 	background-size: 100% 100%;
+}
 
-
+#nav-search-shop-icons {
+	background-image: url("images/nav-search");
+	background-size: 100% 100%;
 }
 
 /*Add navbar styling here*/
 
 .banner-image {
-	margin: 40px auto;
+	margin: 20px auto;
 	width: 90vw;
 	height: 60vh;
 	/*border: 2px solid;*/
@@ -82,7 +85,7 @@
 
 .shopping-header {
 	width: 70%;
-	margin: 0 auto;
+	margin: 20px auto;
 	height: 10vh;
 	background-size: 100% 100%;
 	/*border: 3px solid red;*/
@@ -90,7 +93,7 @@
 }
 
 .shopping-links-container {
-	margin: 10px auto;
+	margin: 50px auto;
 	width: 50%;
 	display: flex;
 	flex-direction: row;
