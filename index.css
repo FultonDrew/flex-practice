@@ -1,0 +1,323 @@
+* {
+	margin: 0;
+	padding:0;
+	font-family: Gotham Book,Arial,sans-serif;
+}
+
+.container {
+	/*background-color: yellow;*/
+	/*border: 2px solid; */
+}
+
+.navbar-container {
+	/*border: 1px solid;*/
+	width: 100%;
+	margin: 0 auto;
+	background-color: lightgrey;
+	box-shadow: 3px 3px 3px;
+	height: 8vh;
+}
+
+.navbar-list {
+	/*background-color: red;*/
+	margin: 10px auto;
+	width: 95%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	height: 7vh;
+}
+
+#company-icon, #nav-new, #nav-colors, #nav-dresses, #nav-clothing, #nav-swim, #nav-gifts, #nav-girls, #nav-search-shop-icons {
+	/*border: 1px solid;*/
+	flex-grow: 1;
+	margin: 5px;
+	width: 10%;
+	height: 95%;
+	display: inline-block;
+	text-align: center;
+	line-height: 6vh;
+} 
+
+#company-icon {
+	background-image: url("images/icon.png");
+	background-size: 100% 100%;
+
+
+}
+
+/*Add navbar styling here*/
+
+.banner-image {
+	margin: 40px auto;
+	width: 90vw;
+	height: 60vh;
+	/*border: 2px solid;*/
+	background-image: url("images/hero.png");
+}
+
+.cta-banner {
+	margin: 5px auto;
+	width: 70%;
+	height: 15vh;
+	background-image: url("images/cta-banner.png");
+	background-size: 100% 100%;
+}
+
+.cta-gifts {
+	margin: 20px auto;
+	width: 90%;
+	height: 30vh;
+	background-image: url("images/cta-gifts.png");
+	background-size: 100% 100%;
+}
+
+.shopping-nav-container {
+	/*border: 1px solid blue;*/
+	width: 100%;
+	margin: 10px auto;
+}
+
+.shopping-header {
+	width: 70%;
+	margin: 0 auto;
+	height: 10vh;
+	background-size: 100% 100%;
+	/*border: 3px solid red;*/
+	background-image: url("images/shopping-header.png");
+}
+
+.shopping-links-container {
+	margin: 10px auto;
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.shopping-1, .shopping-2, .shopping-3 {
+	border: 1px solid;
+	padding: 10px 25px;
+	color: blue;
+	text-align: center;
+	width: 25%;
+	background-color: white;
+}
+
+.shopping-hero-container {
+	margin: 15px auto;
+	width: 85%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.left-side, .right-side {
+	/*border: 2px solid;*/
+	width: 40%;
+}
+
+.left-side-image {
+	height: 70vh;
+	background-size: 100% 100%;
+	/*border: 3px solid red;*/
+	background-image: url("images/left-side.png");
+}
+
+.right-side-image {
+	height: 70vh;
+	background-size: 100% 100%;
+	/*border: 3px solid red;*/
+	background-image: url("images/right-side.png");
+}
+
+.left-side-cta, .right-side-cta  {
+	margin: 10px auto;
+	text-align: center;
+}
+
+.left-side-link, .right-side-link  {
+	margin: 10px auto;
+	text-align: center;
+}
+
+.whats-new {
+	width: 70%;
+	margin: 0 auto;
+	height: 10vh;
+	background-size: 100% 100%;
+	/*border: 3px solid red;*/
+	background-image: url("images/whats-new.png");
+}
+
+.easter-hero {
+	margin: 20px auto;
+	width: 80%;
+	/*border: 2px solid;*/
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.left-side-easter {
+	background-image: url("images/easter-left.png");
+	width: 25%;
+	margin: 10px 15px;
+	height: 60vh;
+	background-size: 100% 100%;
+	display: inline-block;
+}
+.center-side-easter {
+	background-image: url("images/easter-center.png");
+	width: 25%;
+	margin: 10px 15px;
+	height: 60vh;
+	background-size: 100% 100%;
+	display: inline-block;
+}
+.right-side-easter {
+	background-image: url("images/easter-right.png");
+	margin: 10px 15px;
+	width: 35%;
+	height: 60vh;
+	background-size: 100% 100%;
+	display: inline-block;
+}
+
+.guide-separator {
+	width: 80%;
+	height: 10vh;
+	margin: 10px auto;
+	/*border: 1px solid;*/
+	background-image: url("images/guide.png");
+	background-size: 100% 100%;
+}
+
+.shopping-container {
+	/*border: 2px solid red;*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.shopping-left-side, .shopping-center-side, .shopping-right-side {
+	
+	width: 32vw;
+	margin: 0 auto;
+}
+
+.shopping-left-side, .shopping-right-side {
+	display: grid;
+	border: 0.5px solid orange;
+	grid-template-columns: 1fr 1fr;
+}
+
+#anniversary-image {
+	background-image: url("images/anniversay-image.png");
+	margin: 10px 15px;
+	/*width: 45%;*/
+	height: 30vh;
+	background-size: 100% 100%;
+	display: grid;
+	grid-column: 1/2;
+}
+
+#right-anniversary-image {
+	background-image: url("images/right-anniversary-image.png");
+	margin: 10px 15px;
+	/*width: 45%;*/
+	height: 30vh;
+	background-size: 100% 100%;
+	display: grid;
+	grid-column: 1/2;
+}
+
+#anniversary-text, #right-anniversary-text{
+	grid-column: 2/3;
+	padding-top: 35%;
+	text-align: center;
+	position: relative;
+	/*border: 1px solid;*/
+}
+
+#style, #prints, #news {
+	border: 0.5px solid blue;
+	margin: 10px auto;
+	font-size: 1.5em;
+	padding: 10px;
+	text-align: center;
+}
+
+.recommendation-header {
+	margin: 5px auto;
+	width: 80%;
+	height: 10vh;
+	background-image: url("images/recommendation-header.png");
+	background-size: 100% 100%;
+	border-bottom: 2.5px lightgrey;
+}
+
+.shop-the-look-container {
+	width: 100%;
+}
+
+.recommendation-assets {
+	width: 60%;
+	margin: 15px auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.one, .two, .three, .four, .five {
+	background-image: url("images/one.png");
+	background-size: 100% 100%;
+	width: 15%;
+	height: 30vh;
+}
+
+.resort-container {
+	/*border: 1px solid;*/
+	margin: 40px auto;
+	width: 100%;
+}
+
+.resort-container-header {
+	/*border: 1px solid;*/
+	margin: 10px auto;
+	width: 80%;
+	background-image: url("images/resort-container-header.png");
+	background-size: 100% 100%;
+	height: 10vh;
+}
+
+.resort-container-images {
+	/*border: 1px solid;*/
+	margin: 10px auto;
+	width: 80%;
+	background-image: url("images/resort-container-images.png");
+	background-size: 100% 100%;
+	height: 30vh;
+}
+
+.resort-container-links {
+	/*border: 1px solid;*/
+	margin: 10px auto;
+	width: 80%;
+	background-image: url("images/resort-container-links.png");
+	background-size: 100% 100%;
+	height: 10vh;
+}
+
